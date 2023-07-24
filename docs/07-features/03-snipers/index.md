@@ -35,6 +35,12 @@ In the configuration settings, you can change a couple of settings for the givea
 
 You can also configure the giveaway sniper to enter giveaways sent by custom bots. To do this, you need to add the bot's ID to the **Custom Bots** list. You can find the bot's ID by enabling developer mode in Discord and right clicking on the bot's name.
 
+## Privnote Sniper
+
+The privnote sniper will automatically open privnote links sent in any channel you can access and save the contents so you can read them.
+
+![Privnote Sniper](./img/privnote-sniper.png)
+
 ## Multi-Token Sniper
 
 The multi-token sniper allows you to use multiple Discord accounts to snipe nitro gifts and giveaways. To do this, add the tokens of the accounts you want to use to the **Tokens** list in the config. You must restart the bot for changes to this list to take effect.
