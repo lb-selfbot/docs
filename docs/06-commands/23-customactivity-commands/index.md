@@ -16,7 +16,9 @@ There are 2 types of custom activities that you can set: RPC and Custom Activity
 
 ### RPC (Rich Presence)
 
-RPC activity works by connecting with the Discord app on your computer and sending activity data to it. This means that you will need to have the Discord app running to be able to use RPC. You also need to have a Discord application on the Discord Developer Portal to be able to use RPC and customize the images. RPC activities only support the "Playing" activity type.
+RPC activity works by connecting with the Discord app on your computer and sending activity data to it. This means that you will need to have the Discord app running to be able to use RPC. You also need to have a Discord application on the Discord Developer Portal to be able to use RPC. RPC activities only support the "Playing" activity type.
+
+To customize the images of your RPC activity, you can either create a new image in your Discord application or use the link of your image as the image key.
 
 ### Custom Activity
 
