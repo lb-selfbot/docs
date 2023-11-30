@@ -4,7 +4,7 @@ import os
 
 dotenv.load_dotenv()
 
-BETA = True
+BETA = False
 
 base_url = (
     "https://beta-api.lightning-bot.com" if BETA else "https://api.lightning-bot.com"

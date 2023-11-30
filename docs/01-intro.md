@@ -5,24 +5,39 @@ slug: /intro
 
 # Intro
 
-Welcome to the [LightningBot](https://lightning-bot.com/) documentation! Here you can find information about what it can do, how to set it up and how to use it. If you have any questions, feel free to join our [Discord server](https://lightning-bot.com/discord) and ask in the support channel.
+Welcome to the [LightningBot](https://lightning-bot.com/) documentation! Here, you can discover the capabilities of LightningBot, learn how to configure it, and gain insights into its usage. Should you have any queries or require assistance, please don't hesitate to join our [Discord server](https://lightning-bot.com/discord) and reach out in the support channel.
 
 ## What is a selfbot?
 
-A selfbot is a Discord bot that runs on a normal user account. It's like a users personal assistant that responds to their commands to perform different tasks. The main objective of a selfbot is to make things easier for the user by doing things like sending messages, changing your avatar, status or activity, and much more. You can backup your servers and account, control your music, and get notified about important things like when someone mentions you, when you get banned from a server, and when there's been a new login to your account.
+A selfbot is a Discord bot designed to operate on a regular user account. Think of it as a personal assistant that responds to your commands to perform various tasks. The primary purpose of a selfbot is to simplify and improve your Discord experience by performing actions like sending messages, altering your avatar, status, or activity, and much more. You can back up your servers and account, control your Spotify music, and receive essential notifications, like when someone mentions you, when you get banned from a server, or when there's a new login to your account.
 
-A selfbot doesn't log into your account with your email and password, but instead uses a token. A token is a unique string of letters and numbers that is used to authenticate your Discord account. Anyone with your token can log into your account, so it's important to keep it safe. You can find your token by following the steps on the next page.
+A selfbot does not require your Discord email and password for access. Instead, it utilizes a token. This token is a unique string of letters and numbers that serves as your account's authentication key. It's very import to protect your token since anyone with access to it can access your account.
 
 ## Creating an account
 
-To use LightningBot, you will have to create an account. To do so, go to the [sign up page](https://lightning-bot.com/signup) and enter your desired username and password. You will have to agree to our [Terms of Service](https://lightning-bot.com/terms) and [Privacy Policy](https://lightning-bot.com/privacy) before you can create an account. After you have created an account, you will be automatically logged in and redirected to the dashboard.
+To begin using LightningBot, you'll need to create an account. Follow these simple steps:
+
+1. Visit the [sign-up page](https://lightning-bot.com/signup).
+2. Enter your preferred username and password.
+3. Before creating your account, make sure to review and accept our [Terms of Service](https://lightning-bot.com/terms) and [Privacy Policy](https://lightning-bot.com/privacy).
+
+Upon successfully creating your account, you'll be instantly logged in and redirected to the dashboard.
 
 ## The Dashboard
 
-[The Dashboard](https://lightning-bot.com/dashboard) is the place where you can manage and view your account details. You can change your email and password, redeem or buy a key, and download LightningBot.
+[The Dashboard](https://lightning-bot.com/dashboard) is your central hub for managing and accessing key features related to your LightningBot account. Here's what you can do from the dashboard:
 
-If you have LightningBot running, you can also view the console output and change the settings right from the dashboard.
+- View and modify your account details.
+- Redeem or purchase a license key.
+- Download LightningBot.
+
+If you're currently running LightningBot, you can also do the following directly from the dashboard:
+
+- Monitor the console output.
+- Change the configuration settings.
+
+Furthermore, you have the option to utilize our hosting service from the dashboard. This service allows you to operate LightningBot on our servers, eliminating the need to run it on your own computer. If you're interested in learning more about the hosting service, please visit our dedicated [hosting documentation](/hosting).
 
 :::note
-You don't need to set an email address, but it's recommended to do so. If you forget your password, you can reset it by clicking the "Forgot password" button on the [login page](https://lightning-bot.com/login). You will receive an email with a link to reset your password. If you don't have an email address set, you will have to contact us on Discord to reset your password.
+While setting an email address is optional, it's strongly recommended. This ensures a convenient way to recover your password if you ever forget it. In case you need to reset your password, simply click the "Forgot password" button on the [login page](https://lightning-bot.com/login). An email with instructions to reset your password will be sent to your registered email address. If you haven't provided an email address, reach out to us on Discord for assistance with password recovery.
 :::

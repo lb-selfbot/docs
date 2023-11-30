@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+// const lightCodeTheme = require("prism-react-renderer/themes/github");
+// const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -31,6 +31,8 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+
+  plugins: [require.resolve("docusaurus-lunr-search")],
 
   presets: [
     [
@@ -67,7 +69,6 @@ const config = {
             position: "left",
             label: "Documentation",
           },
-          // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://lightning-bot.com/",
             label: "Main Site",
@@ -142,8 +143,8 @@ const config = {
         copyright: `Copyright © 2020 - ${new Date().getFullYear()} lightning-bot.com | All Rights Reserved`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        // theme: lightCodeTheme,
+        // darkTheme: darkCodeTheme,
       },
     }),
 };

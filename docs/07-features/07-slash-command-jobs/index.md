@@ -8,6 +8,11 @@ slug: /features/slash-command-jobs
 
 Slash command jobs can be used to execute a slash command at a specific interval. You can use the `listscjobs` command to get a list of all current slash command jobs.
 
+
+:::info
+Slash command jobs are saved in your configuration file, so they will persist after restarting LightningBot.
+:::
+
 ## Creating a job
 
 You can use the `createscjob` command to create a job. Here is an example:
