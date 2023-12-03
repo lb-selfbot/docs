@@ -33,10 +33,6 @@ This is equivalent to executing `/deposit 1000` every day in the channel `#bot-c
 
 After creating a slash command job, you will get a Job ID, which you can use to manage the job. A Job ID looks like this: `88b3fecab818243f3fe656c5bd0ca099`
 
-:::info
-Slash command jobs are stored in `LightningBot/SlashCommands/jobs.json`.
-:::
-
 ## Deleting a job
 
 You can use the `deletescjob` command to delete a job. Here is an example:

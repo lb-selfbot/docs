@@ -1,9 +1,9 @@
 ---
-sidebar_position: 4
+sidebar_position: 8
 slug: /getting-your-token
 ---
 
-# Getting your token
+# Getting Your Token
 
 There are three main methods to obtain your token for LightningBot:
 

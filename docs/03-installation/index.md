@@ -5,7 +5,7 @@ slug: /category/installation
 
 import DocCardList from '@theme/DocCardList';
 
-# Installation
+#  Installation
 
 LightningBot is officially compatible with the following operating systems:
 

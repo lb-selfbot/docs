@@ -3,7 +3,7 @@ sidebar_position: 2
 slug: /license-keys
 ---
 
-# License keys
+#  License Keys
 
 ### Obtaining a license key
 
@@ -13,7 +13,7 @@ To use LightningBot, you'll require a license key. You can obtain one by purchas
 - If you choose to pay with Sellix, you'll need to redeem the key manually on the dashboard.
 
 :::info
-You don't need to have a PayPal account to use PayPal for payment. Depending on your location, you can also use various payment methods via PayPal, including credit card, Venmo, Bancontact, BLIK, eps, giropay, iDEAL, MyBank, Przelewy24, and Sofort.
+You don't need to have a PayPal account to use PayPal for payments. Depending on your location, you can also use various payment methods via PayPal, including credit card, Venmo, Bancontact, BLIK, eps, giropay, iDEAL, MyBank, Przelewy24, and Sofort.
 :::
 
 

@@ -22,6 +22,10 @@ Here in the `Account` tab, there are three configuration options: Username, Pass
 
 ![UI Window - Discord login choice](./img/ui-dc-login-choice.png)
 
+:::tip
+You can find your Discord token by following the instructions [here](/getting-your-token).
+:::
+
 ---
 
 ### Login with a web browser

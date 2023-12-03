@@ -11,7 +11,7 @@ import CommandTable from '@site/src/components/CommandTable';
 Activity commands can be used to change your Discord status and activity. You can also cycle through a list of activities using the commands in this category that start with `cycle`, like `cycleplaying`.
 
 :::tip
-Do you want to have a more customized activity? Check out the [Custom Activity](/docs/06-commands/23-customactivity-commands/index.md) commands!
+Do you want to have a more customized activity? Check out the [Custom Activity](/commands/customactivity-commands) commands!
 :::
 
 ## Command List

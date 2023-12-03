@@ -24,6 +24,16 @@ To customize the images of your RPC activity, you can either create a new image 
 
 Unlike RPC, you don't need to have Discord running or a Discord application to use Custom Activities. Custom Activities are sent directly to Discord's servers, so they will work even if the Discord app is closed. Custom Activities support all activity types: Playing, Listening, Watching, Streaming and Competing. To add custom images, you can use the `cacreateimagekey` command: This will create a key that you can pass to the `calargeimage` and `casmallimage` commands to set the image. Custom Activity, like RPC, also has support for buttons with custom labels and links that will show up on your profile.
 
+:::info
+You can use the following variables in the activity fields:
+
+| Variable   | Description                  |
+| ---------- | ---------------------------- |
+| `$VERSION` | The version of LightningBot. |
+| `$UPTIME`  | The uptime of LightningBot.  |
+
+:::
+
 ## Command List
 
 <CommandTable category="CustomActivity" />

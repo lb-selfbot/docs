@@ -24,6 +24,10 @@ Select the `Login with a token` option. You should see the following screen:
 
 Enter your Discord token here. The token will be saved and you will be logged in.
 
+:::tip
+You can find your Discord token by following the instructions [here](/getting-your-token).
+:::
+
 ### Login with a web browser
 
 Select the `Login with a web browser` option. You should see the following screen:
