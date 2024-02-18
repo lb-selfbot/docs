@@ -38,4 +38,6 @@ The AFK mode can be used to let people that message or mention you to know that 
 
   For example, you could set the message to `Sorry $MENTION, I have been AFK for $AFKSINCE.`
 
+  See the [Variables](/features/variables) page for more information about dynamic variables.
+
 - **Use AI**: Whether to use AI to generate the AFK message. If enabled, the **Message** setting will be used as the prompt for the AI. It can be left blank for a default prompt.

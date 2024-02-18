@@ -22,13 +22,10 @@ You will also get a notification when you win a giveaway:
 
 ![Giveaway Sniper - Won Giveaway](./img/giveaway-won.png)
 
-
 In the configuration settings, you can change a couple of settings for the giveaway sniper:
 
 - **Giveaway Sniper Sleep** - The amount of time to wait before entering a giveaway after it is sent. This is to prevent you from getting banned from a server for entering giveaways too quickly.
-
 - **Blacklist** - A list of words that, if found in the giveaway prize, will prevent the sniper from entering the giveaway.
-
 - **Server Blacklist** - A list of server IDs that the sniper will not enter giveaways in. This list is also used by the nitro sniper.
 
 ### Custom Bots
@@ -40,6 +37,28 @@ You can also configure the giveaway sniper to enter giveaways sent by custom bot
 The privnote sniper will automatically open privnote links sent in any channel you can access and save the contents so you can read them.
 
 ![Privnote Sniper](./img/privnote-sniper.png)
+
+## PokéTwo Sniper
+
+The PokéTwo sniper will automatically catch Pokémon that spawn in the channels you specify using AI to detect the Pokémon.
+
+![PokéTwo Sniper](./img/poketwo-sniper.png)
+
+In the configuration settings, you can change a couple of settings for the PokéTwo sniper:
+
+- **Timeout** - The minimum amount of time the sniper will wait before catching another Pokémon.
+- **Sleep** - The amount of time the sniper will wait before catching a Pokémon after it spawns.
+- **Random Sleep** - If the sniper should wait a random amount of time before catching a Pokémon after it spawns. The **Sleep** setting will be used as the maximum amount of time to wait.
+- **Typing** - If enabled, you will appear to be typing when the sniper catches a Pokémon.
+- **Fake Activity** - If enabled, the sniper will occasionally send random PokéTwo commands to appear active.
+- **Catch Rate** - The percentage of Pokémon the sniper will attempt to catch. The higher the percentage, the more Pokémon the sniper will attempt to catch.
+- **Channels** - A list of channels that the sniper will catch Pokémon in. The sniper will only catch Pokémon in these channels.
+
+:::info
+
+More information about the AI used to detect Pokémon can be found [here](https://github.com/LightningDev1/PokeTwo-AI).
+
+:::
 
 ## Multi-Token Sniper
 
