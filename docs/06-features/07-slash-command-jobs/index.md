@@ -18,7 +18,7 @@ Slash command jobs are saved in your configuration file, so they will persist af
 You can use the `createscjob` command to create a job. Here is an example:
 
 ```
-[p]createscjob #bot-commands @Dank Memer 24h daily
+[p]createscjob daily-getter #bot-commands @Dank Memer 24h daily
 ```
 
 This will create a job that executes the slash command `daily` in the channel `#bot-commands` every day.
@@ -26,31 +26,31 @@ This will create a job that executes the slash command `daily` in the channel `#
 If the command you want to execute has options, you can add these as well. Here is an example:
 
 ```
-[p]createscjob #bot-commands @Dank Memer 24h deposit 1000
+[p]createscjob daily-deposit #bot-commands @Dank Memer 24h deposit 1000
 ```
 
 This is equivalent to executing `/deposit 1000` every day in the channel `#bot-commands`.
 
-After creating a slash command job, you will get a Job ID, which you can use to manage the job. A Job ID looks like this: `88b3fecab818243f3fe656c5bd0ca099`
+You can manage the slash command job using the name you provided.
 
 ## Deleting a job
 
 You can use the `deletescjob` command to delete a job. Here is an example:
 
 ```
-[p]deletescjob 88b3fecab818243f3fe656c5bd0ca099
+[p]deletescjob daily-deposit
 ```
 
-This will delete the job with the ID `88b3fecab818243f3fe656c5bd0ca099`.
+This will delete the job with the name `daily-deposit`.
 
 ## Editing a job
 
-You can use `setscjobcommand`, `setscjobchannel` and `setscjobinterval` to edit a job. Here is an example:
+You can use `setscjobcommand`, `setscjobchannel` and `setscjobinterval` to edit a job. Below are some examples:
 
 ```
-[p]setscjobcommand 88b3fecab818243f3fe656c5bd0ca099 @Dank Memer monthly
+[p]setscjobcommand daily-deposit @Dank Memer monthly
 
-[p]setscjobchannel 88b3fecab818243f3fe656c5bd0ca099 #general
+[p]setscjobchannel daily-deposit #general
 
-[p]setscjobinterval 88b3fecab818243f3fe656c5bd0ca099 12h
+[p]setscjobinterval daily-deposit 12h
 ```

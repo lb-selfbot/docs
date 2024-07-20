@@ -40,6 +40,22 @@ You can use the `uploadsc`, `uploadfile` and `uploadlink` files to upload files.
 
 For an up-to-date list of supported destinations, you can use the `listdestinations` command.
 
+## Conversion Commands
+
+Conversion commands can be used to convert between different units of measurement. The supported units are listed below.
+
+### Supported Units
+
+| Quantity    | Units                                                                                                                                            |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Velocity    | `m/s`, `km/h`, `mph`                                                                                                                             |
+| Area        | `square-meter`, `square-kilometer`, `square-mile`, `square-inch`, `square-foot`, `square-yard`, `acre`                                           |
+| Length      | `m`, `km`, `in`, `ft`, `mi`                                                                                                                      |
+| Temperature | `C`, `F`, `K`                                                                                                                                    |
+| Time        | `s`, `m`, `h`, `d`, `w`, `mo`, `y`                                                                                                               |
+| Volume      | `cubic-meter`, `cubic-kilometer`, `cubic-centimeter`, `cubic-millimeter`, `liter`, `milliliter`, `gallon`, `quart`, `pint`, `cup`, `fluid ounce` |
+| Mass        | `kg`, `g`, `mg`, `lb`, `oz`                                                                                                                      |
+
 ## Command List
 
 <CommandTable category="Utility" />

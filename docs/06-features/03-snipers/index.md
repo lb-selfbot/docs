@@ -53,6 +53,7 @@ In the configuration settings, you can change a couple of settings for the Poké
 - **Fake Activity** - If enabled, the sniper will occasionally send random PokéTwo commands to appear active.
 - **Catch Rate** - The percentage of Pokémon the sniper will attempt to catch. The higher the percentage, the more Pokémon the sniper will attempt to catch.
 - **Channels** - A list of channels that the sniper will catch Pokémon in. The sniper will only catch Pokémon in these channels.
+- **Catch Language** - The language the sniper will use to catch Pokémon. The available languages are English, Japanese, Japanese (Transliterated), German and French.
 
 :::info
 
