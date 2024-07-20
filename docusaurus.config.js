@@ -108,7 +108,7 @@ const config = {
               },
               {
                 label: "macOS",
-                href: "/category/installation/macOS",
+                href: "/category/installation/macos",
               },
             ],
           },
