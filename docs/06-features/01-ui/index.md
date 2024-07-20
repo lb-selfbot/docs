@@ -34,7 +34,7 @@ The config page can be used to change your configuration settings. There are mul
 
 ## Activity
 
-On the activity page you can change your Custom Activity and RPC settings. See the [Custom Activity](/commands/customactivity-commands) page for more information.
+On the activity page you can change your Custom Activity and RPC settings. See the [Activity](/commands/activity-commands) page for more information.
 
 There is also an activity preview on the right of this page, so you can instantly see what your activity will look like when you change the settings.
 
